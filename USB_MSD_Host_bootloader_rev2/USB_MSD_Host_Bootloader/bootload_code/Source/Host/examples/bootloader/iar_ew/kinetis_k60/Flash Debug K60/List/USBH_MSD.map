@@ -1,0 +1,729 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 25/Sep/2015  17:50:01
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Exe\USBH_MSD.out
+#    Map file     =  
+#        C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\List\USBH_MSD.map
+#    Command line =  
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\ccsbcs.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\cstartup_M.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\diskio.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\ff.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\flash_FTFL.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_ch9.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_close.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_cnl.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_common.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_dev_list.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_driver.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_main.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_rcv.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_shut.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\host_snd.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\khci_kinetis.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\Loader.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\low_level_init.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\main.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\P2.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\PIT1_kinetis.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\poll.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\printf.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\sci_kinetis.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_classes.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_host_hub.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_host_hub_sm.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_host_msd_bo.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_host_msd_queue.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usb_host_msd_ufi.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usbevent.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usbmsgq.o"
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Obj\usbsem.o" -o
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\Exe\USBH_MSD.out" --redirect _Printf=_PrintfFull --redirect
+#        _Scanf=_ScanfFull --map
+#        "C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash
+#        Debug K60\List\USBH_MSD.map" --config
+#        C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\config\MK60N512CMD100_Flash.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __write=__write_buffered --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x000003ff] |
+                [from 0x00000410 to 0x0007ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x1b0
+  .intvec            ro code  0x00000000   0x1b0  cstartup_M.o [1]
+                            - 0x000001b0   0x1b0
+
+"P1", part 1 of 2:                          0x2b
+  .rodata            const    0x000001b0     0x0  zero_init3.o [4]
+  .rodata            const    0x000001b0     0x0  packbits_init.o [4]
+  Initializer bytes  const    0x000001b0    0x2b  <for P2 s0>
+                            - 0x000001db    0x2b
+
+"P1", part 2 of 2:                        0x876c
+  .text              ro code  0x00000410  0x1800  ff.o [1]
+  .text              ro code  0x00001c10   0x34c  diskio.o [1]
+  .text              ro code  0x00001f5c    0x8c  ccsbcs.o [1]
+  .text              ro code  0x00001fe8  0x1510  dlmalloc.o [3]
+  .text              ro code  0x000034f8    0x66  ABImemset.o [4]
+  .text              ro code  0x0000355e    0x7e  usb_host_msd_ufi.o [1]
+  .text              ro code  0x000035dc    0x64  poll.o [1]
+  .text              ro code  0x00003640     0x6  abort.o [3]
+  .text              ro code  0x00003646     0x2  cstartup_M.o [1]
+  .text              ro code  0x00003648    0x2c  xgetmemchunk.o [3]
+  .text              ro code  0x00003674   0x5e4  usb_host_msd_bo.o [1]
+  .text              ro code  0x00003c58    0x14  exit.o [5]
+  .text              ro code  0x00003c6c   0x908  host_common.o [1]
+  .text              ro code  0x00004574    0x90  usb_host_msd_queue.o [1]
+  .text              ro code  0x00004604    0x30  host_snd.o [1]
+  .text              ro code  0x00004634    0x30  host_rcv.o [1]
+  .text              ro code  0x00004664   0x466  host_ch9.o [1]
+  .text              ro code  0x00004acc   0x274  host_dev_list.o [1]
+  .text              ro code  0x00004d40   0x3cc  host_main.o [1]
+  .text              ro code  0x0000510c    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code  0x00005184    0x30  host_close.o [1]
+  .text              ro code  0x000051b4    0xfc  P2.o [1]
+  .text              ro code  0x000052b0   0xc04  khci_kinetis.o [1]
+  .text              ro code  0x00005eb4   0x13c  PIT1_kinetis.o [1]
+  .text              ro code  0x00005ff0    0x4e  usbevent.o [1]
+  .text              ro code  0x00006040   0x14c  usbmsgq.o [1]
+  .text              ro code  0x0000618c   0x86a  Loader.o [1]
+  .text              ro code  0x000069f8   0x4d0  printf.o [1]
+  .text              ro code  0x00006ec8   0x18c  flash_FTFL.o [1]
+  .text              ro code  0x00007054   0x508  main.o [1]
+  .text              ro code  0x0000755c    0x36  strlen.o [4]
+  .text              ro code  0x00007594    0x9a  sci_kinetis.o [1]
+  .text              ro code  0x00007630   0x698  usb_host_hub_sm.o [1]
+  .text              ro code  0x00007cc8   0x19c  usb_host_hub.o [1]
+  .rodata            const    0x00007e64   0x1e0  ccsbcs.o [1]
+  .rodata            const    0x00008044   0x1e0  ccsbcs.o [1]
+  .rodata            const    0x00008224   0x100  ccsbcs.o [1]
+  .rodata            const    0x00008324    0xd4  main.o [1]
+  .text              ro code  0x000083f8    0xd0  packbits_init.o [4]
+  .rodata            const    0x000084c8    0x80  ff.o [1]
+  .rodata            const    0x00008548    0x50  main.o [1]
+  .rodata            const    0x00008598    0x50  main.o [1]
+  .rodata            const    0x000085e8    0x50  main.o [1]
+  .rodata            const    0x00008638    0x4c  main.o [1]
+  .text              ro code  0x00008684    0x40  zero_init3.o [4]
+  .rodata            const    0x000086c4    0x38  khci_kinetis.o [1]
+  .rodata            const    0x000086fc    0x34  Loader.o [1]
+  .rodata            const    0x00008730    0x34  Loader.o [1]
+  .rodata            const    0x00008764    0x30  main.o [1]
+  .rodata            const    0x00008794    0x2c  main.o [1]
+  .rodata            const    0x000087c0    0x2c  main.o [1]
+  .rodata            const    0x000087ec    0x2c  main.o [1]
+  .rodata            const    0x00008818    0x2c  main.o [1]
+  .text              ro code  0x00008844    0x2c  low_level_init.o [1]
+  .rodata            const    0x00008870    0x28  main.o [1]
+  .rodata            const    0x00008898    0x28  main.o [1]
+  .text              ro code  0x000088c0    0x28  data_init.o [4]
+  .rodata            const    0x000088e8    0x24  host_dev_list.o [1]
+  .rodata            const    0x0000890c    0x24  Loader.o [1]
+  .rodata            const    0x00008930    0x24  Loader.o [1]
+  .rodata            const    0x00008954    0x24  main.o [1]
+  .iar.init_table    const    0x00008978    0x2c  - Linker created -
+  .rodata            const    0x000089a4    0x20  main.o [1]
+  .rodata            const    0x000089c4    0x20  main.o [1]
+  .rodata            const    0x000089e4    0x20  main.o [1]
+  .rodata            const    0x00008a04    0x1c  Loader.o [1]
+  .rodata            const    0x00008a20    0x1c  main.o [1]
+  .rodata            const    0x00008a3c    0x1c  main.o [1]
+  .rodata            const    0x00008a58    0x1c  main.o [1]
+  .rodata            const    0x00008a74    0x1c  main.o [1]
+  .text              ro code  0x00008a90    0x1a  cmain.o [4]
+  .text              ro code  0x00008aaa     0x4  exit.o [3]
+  .text              ro code  0x00008ab0     0xa  cexit.o [4]
+  .rodata            const    0x00008abc    0x18  Loader.o [1]
+  .rodata            const    0x00008ad4    0x18  main.o [1]
+  .rodata            const    0x00008aec    0x14  main.o [1]
+  .rodata            const    0x00008b00    0x14  main.o [1]
+  .rodata            const    0x00008b14    0x14  main.o [1]
+  .rodata            const    0x00008b28    0x10  ff.o [1]
+  .rodata            const    0x00008b38     0xc  ff.o [1]
+  .rodata            const    0x00008b44     0xc  main.o [1]
+  .rodata            const    0x00008b50     0xc  main.o [1]
+  .text              ro code  0x00008b5c     0xc  cstartup_M.o [4]
+  .rodata            const    0x00008b68     0x8  ff.o [1]
+  .rodata            const    0x00008b70     0x8  host_ch9.o [1]
+  .rodata            const    0x00008b78     0x4  ff.o [1]
+                            - 0x00008b7c  0x876c
+
+"P2":                                     0x8820
+  P2 s0                       0x20000000   0x229  <Init block>
+    .data            inited   0x20000000   0x200  khci_kinetis.o [1]
+    .data            inited   0x20000200    0x24  usb_classes.o [1]
+    .data            inited   0x20000224     0x4  khci_kinetis.o [1]
+    .data            inited   0x20000228     0x1  diskio.o [1]
+  .bss               zero     0x2000022c   0x1d8  dlmalloc.o [3]
+  .bss               zero     0x20000404   0x104  Loader.o [1]
+  .bss               zero     0x20000508    0xc8  usbmsgq.o [1]
+  .bss               zero     0x200005d0    0xa0  khci_kinetis.o [1]
+  .bss               zero     0x20000670    0x34  host_common.o [1]
+  .bss               zero     0x200006a4    0x24  diskio.o [1]
+  .bss               zero     0x200006c8    0x24  diskio.o [1]
+  .bss               zero     0x200006ec    0x20  diskio.o [1]
+  .bss               zero     0x2000070c    0x20  khci_kinetis.o [1]
+  .bss               zero     0x2000072c    0x18  ff.o [1]
+  .bss               zero     0x20000744    0x18  khci_kinetis.o [1]
+  .bss               zero     0x2000075c    0x18  poll.o [1]
+  .bss               zero     0x20000774    0x18  dlmalloc.o [3]
+  .bss               zero     0x2000078c    0x14  diskio.o [1]
+  .bss               zero     0x200007a0     0xc  khci_kinetis.o [1]
+  .bss               zero     0x200007ac     0x8  ff.o [1]
+  .bss               zero     0x200007b4     0x8  khci_kinetis.o [1]
+  .bss               zero     0x200007bc     0x4  diskio.o [1]
+  .bss               zero     0x200007c0     0x4  host_common.o [1]
+  .bss               zero     0x200007c4     0x4  host_main.o [1]
+  .bss               zero     0x200007c8     0x4  khci_kinetis.o [1]
+  .bss               zero     0x200007cc     0x4  khci_kinetis.o [1]
+  .bss               zero     0x200007d0     0x4  khci_kinetis.o [1]
+  .bss               zero     0x200007d4     0x4  khci_kinetis.o [1]
+  .bss               zero     0x200007d8     0x4  Loader.o [1]
+  .bss               zero     0x200007dc     0x4  Loader.o [1]
+  .bss               zero     0x200007e0     0x4  Loader.o [1]
+  .bss               zero     0x200007e4     0x4  Loader.o [1]
+  .bss               zero     0x200007e8     0x4  main.o [1]
+  .bss               zero     0x200007ec     0x4  main.o [1]
+  .bss               zero     0x200007f0     0x4  PIT1_kinetis.o [1]
+  .bss               zero     0x200007f4     0x4  usb_host_hub.o [1]
+  .bss               zero     0x200007f8     0x4  usb_host_hub_sm.o [1]
+  .bss               zero     0x200007fc     0x4  usb_host_msd_bo.o [1]
+  .bss               zero     0x20000800     0x4  usbmsgq.o [1]
+  .bss               zero     0x20000804     0x4  xgetmemchunk.o [3]
+  .bss               zero     0x20000808     0x2  ff.o [1]
+  .bss               zero     0x2000080a     0x1  diskio.o [1]
+  .bss               zero     0x2000080b     0x1  ff.o [1]
+  .bss               zero     0x2000080c     0x1  Loader.o [1]
+  .bss               zero     0x2000080d     0x1  Loader.o [1]
+  .bss               zero     0x2000080e     0x1  Loader.o [1]
+  .bss               zero     0x2000080f     0x1  Loader.o [1]
+  .bss               zero     0x20000810     0x1  Loader.o [1]
+  .bss               zero     0x20000811     0x1  Loader.o [1]
+  .bss               zero     0x20000812     0x1  Loader.o [1]
+  .bss               zero     0x20000813     0x1  Loader.o [1]
+  .bss               zero     0x20000814     0x1  Loader.o [1]
+  .bss               zero     0x20000815     0x1  Loader.o [1]
+  .bss               zero     0x20000816     0x1  Loader.o [1]
+  .bss               zero     0x20000817     0x1  Loader.o [1]
+  .bss               zero     0x20000818     0x1  Loader.o [1]
+  .bss               zero     0x20000819     0x1  Loader.o [1]
+  .bss               zero     0x2000081a     0x1  Loader.o [1]
+  .bss               zero     0x2000081b     0x1  Loader.o [1]
+  .bss               zero     0x2000081c     0x1  Loader.o [1]
+  .bss               zero     0x2000081d     0x1  Loader.o [1]
+  .bss               zero     0x2000081e     0x1  main.o [1]
+  .bss               zero     0x2000081f     0x1  main.o [1]
+  CSTACK                      0x20000820  0x4000  <Block>
+    CSTACK           uninit   0x20000820  0x4000  <Block tail>
+  HEAP                        0x20004820  0x4000  <Block>
+    HEAP             uninit   0x20004820  0x4000  <Block tail>
+                            - 0x20008820  0x8820
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5f4:
+          0x2000022c  0x5f4
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x2b (7% of destination):
+          0x000001b0   0x2b
+    1 destination range, total size 0x229:
+          0x20000000  0x229
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash Debug K60\Obj: [1]
+    Loader.o                 2 154      228      294
+    P2.o                       252
+    PIT1_kinetis.o             316                 4
+    ccsbcs.o                   140    1 216
+    cstartup_M.o               434
+    diskio.o                   844        1      130
+    ff.o                     6 144      168       35
+    flash_FTFL.o               396
+    host_ch9.o               1 126        8
+    host_close.o                48
+    host_common.o            2 312                56
+    host_dev_list.o            628       36
+    host_main.o                972                 4
+    host_rcv.o                  48
+    host_snd.o                  48
+    khci_kinetis.o           3 076       95      768
+    low_level_init.o            44
+    main.o                   1 288    1 184       10
+    poll.o                     100                24
+    printf.o                 1 232
+    sci_kinetis.o              154
+    usb_classes.o                         3       36
+    usb_host_hub.o             412                 4
+    usb_host_hub_sm.o        1 688                 4
+    usb_host_msd_bo.o        1 508                 4
+    usb_host_msd_queue.o       144
+    usb_host_msd_ufi.o         126
+    usbevent.o                  78
+    usbmsgq.o                  332               204
+    ------------------------------------------------
+    Total:                  26 044    2 939    1 577
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                      6
+    dlmalloc.o               5 392               496
+    exit.o                       4
+    xgetmemchunk.o              44                 4
+    ------------------------------------------------
+    Total:                   5 446               500
+
+rt7M_tl.a: [4]
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                102
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    packbits_init.o            208
+    strlen.o                    54
+    zero_init3.o                64
+    ------------------------------------------------
+    Total:                     634
+
+shb_l.a: [5]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                        14        2        3
+    Linker created                       44   32 768
+----------------------------------------------------
+    Grand Total:            32 158    2 985   34 848
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00008978          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000089a4          --   Gb  - Linker created -
+?main                   0x00008a91         Code  Gb  cmain.o [4]
+BootLoader              0x00007427   0x14  Code  Gb  main.o [1]
+BootloaderStatus        0x2000080d    0x1  Data  Gb  Loader.o [1]
+CSTACK$$Base            0x20000820          --   Gb  - Linker created -
+CSTACK$$Limit           0x20004820          --   Gb  - Linker created -
+CheckAddressValid       0x00006883   0x1c  Code  Lc  Loader.o [1]
+Class_Interface_Key     0x200007c0    0x4  Data  Lc  host_common.o [1]
+CurrVol                 0x2000080b    0x1  Data  Lc  ff.o [1]
+DisableTimerInterrupt   0x00005f23   0x1a  Code  Lc  PIT1_kinetis.o [1]
+DriverInfoTable         0x00008764   0x30  Data  Gb  main.o [1]
+EnableTimerInterrupt    0x00005f09   0x1a  Code  Lc  PIT1_kinetis.o [1]
+FatFs                   0x200007ac    0x8  Data  Lc  ff.o [1]
+Files                   0x2000072c   0x18  Data  Lc  ff.o [1]
+FlashApplication        0x0000618d  0x110  Code  Gb  Loader.o [1]
+FlashArrayCW            0x0000689f   0x9c  Code  Lc  Loader.o [1]
+FlashArrayS19           0x0000629d   0xee  Code  Lc  Loader.o [1]
+FlashLineCW             0x000069b5   0x3e  Code  Lc  Loader.o [1]
+FlashLineS19            0x00006391  0x456  Code  Lc  Loader.o [1]
+Flash_ByteProgram       0x00006f5d   0xd2  Code  Gb  flash_FTFL.o [1]
+Flash_SectorErase       0x00006ec9   0x94  Code  Gb  flash_FTFL.o [1]
+Fsid                    0x20000808    0x2  Data  Lc  ff.o [1]
+GPIO_Init               0x0000710d   0xa0  Code  Gb  main.o [1]
+GetHexValue             0x000067e7   0x5e  Code  Lc  Loader.o [1]
+GetSpair                0x00006845   0x3e  Code  Lc  Loader.o [1]
+HEAP$$Base              0x20004820          --   Gb  - Linker created -
+HEAP$$Limit             0x20008820          --   Gb  - Linker created -
+InStream_Read           0x000083f9   0x22  Code  Lc  packbits_init.o [4]
+LfnOfs                  0x00008b28   0x10  Data  Lc  ff.o [1]
+Main_Task               0x00007211   0x76  Code  Gb  main.o [1]
+New_pc                  0x200007ec    0x4  Data  Lc  main.o [1]
+New_sp                  0x200007e8    0x4  Data  Lc  main.o [1]
+PIT1_ISR                0x00005f3d   0x56  Code  Gb  PIT1_kinetis.o [1]
+POLL_init               0x000035dd   0x1e  Code  Gb  poll.o [1]
+POLL_register           0x000035fb   0x24  Code  Gb  poll.o [1]
+Poll                    0x0000361f   0x1e  Code  Gb  poll.o [1]
+Region$$Table$$Base     0x00008978          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000089a4          --   Gb  - Linker created -
+S19Address              0x200007d8    0x4  Data  Gb  Loader.o [1]
+S19FileDone             0x2000080c    0x1  Data  Gb  Loader.o [1]
+SetOutput               0x00007307   0x1e  Code  Gb  main.o [1]
+Switch_mode             0x000071ad   0x64  Code  Lc  main.o [1]
+TERMIO_PutChar          0x00007601    0xc  Code  Gb  sci_kinetis.o [1]
+TR_INT_QUE              0x200005d0   0xa0  Data  Lc  khci_kinetis.o [1]
+Tbl                     0x00008224  0x100  Data  Lc  ccsbcs.o [1]
+TimerInit               0x00005eb5   0x54  Code  Gb  PIT1_kinetis.o [1]
+USB_ISR                 0x00005d5b   0x4c  Code  Gb  khci_kinetis.o [1]
+VolToPart               0x00008b78    0x4  Data  Gb  ff.o [1]
+___VECTOR_RAM           0x00000000         Data  Gb  cstartup_M.o [1]
+__aeabi_memset          0x000034f9         Code  Gb  ABImemset.o [4]
+__cmain                 0x00008a91         Code  Gb  cmain.o [4]
+__data_GetMemChunk      0x00003649   0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x00003c59   0x14  Code  Gb  exit.o [5]
+__iar_Memset            0x000034f9         Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x00003501         Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x000088c1   0x28  Code  Gb  data_init.o [4]
+__iar_dlfree            0x00002fe1  0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x00002d21  0x2b4  Code  Gb  dlmalloc.o [3]
+__iar_packbits_init3    0x0000841b   0xae  Code  Gb  packbits_init.o [4]
+__iar_program_start     0x00008b5d         Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0000510d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000512d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000512d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x00008685   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x00008845   0x2c  Code  Gb  low_level_init.o [1]
+__vector_table          0x00000000         Data  Gb  cstartup_M.o [1]
+_bsp_platform_init      0x0000521f   0x50  Code  Gb  P2.o [1]
+_bsp_usb_host_callback_table
+                        0x000086c4   0x38  Data  Gb  khci_kinetis.o [1]
+_bsp_usb_host_init      0x000052ad    0x4  Code  Gb  P2.o [1]
+_call_main              0x00008a9d         Code  Gb  cmain.o [4]
+_exit                   0x00008ab1         Code  Gb  cexit.o [4]
+_gm_                    0x2000022c  0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x00008aa7         Code  Gb  cmain.o [4]
+_usb_event_clear        0x00006011   0x16  Code  Gb  usbevent.o [1]
+_usb_event_init         0x00005ff1    0xc  Code  Gb  usbevent.o [1]
+_usb_event_set          0x00005ffd   0x14  Code  Gb  usbevent.o [1]
+_usb_event_wait_ticks   0x00006027   0x18  Code  Gb  usbevent.o [1]
+_usb_host_cancel_call_interface
+                        0x00004d99   0x16  Code  Gb  host_main.o [1]
+_usb_host_ch9_clear_feature
+                        0x000048f5   0x58  Code  Gb  host_ch9.o [1]
+_usb_host_ch9_get_descriptor
+                        0x0000494d   0x48  Code  Gb  host_ch9.o [1]
+_usb_host_ch9_set_address
+                        0x00004995   0x3a  Code  Gb  host_ch9.o [1]
+_usb_host_ch9_set_configuration
+                        0x000049d1   0x3a  Code  Gb  host_ch9.o [1]
+_usb_host_ch9_set_interface
+                        0x00004a0d   0x44  Code  Gb  host_ch9.o [1]
+_usb_host_close_pipe    0x00005185   0x30  Code  Gb  host_close.o [1]
+_usb_host_close_pipe_call_interface
+                        0x00004daf   0x16  Code  Gb  host_main.o [1]
+_usb_host_driver_info_register
+                        0x00004179   0x18  Code  Gb  host_common.o [1]
+_usb_host_get_tr_element
+                        0x00005019   0x5e  Code  Gb  host_main.o [1]
+_usb_host_init          0x00004e09  0x112  Code  Gb  host_main.o [1]
+_usb_host_init_call_interface
+                        0x00004d41   0x16  Code  Gb  host_main.o [1]
+_usb_host_new_tr_element
+                        0x00004fd9   0x40  Code  Lc  host_main.o [1]
+_usb_host_open_pipe     0x00004f51   0x88  Code  Gb  host_main.o [1]
+_usb_host_open_pipe_call_interface
+                        0x00004dc5   0x16  Code  Gb  host_main.o [1]
+_usb_host_open_pipe_cleanup
+                        0x00004f25   0x2c  Code  Gb  host_main.o [1]
+_usb_host_recv_data     0x00004635   0x30  Code  Gb  host_rcv.o [1]
+_usb_host_recv_data_call_interface
+                        0x00004d83   0x16  Code  Gb  host_main.o [1]
+_usb_host_register_ch9_callback
+                        0x0000484d   0x24  Code  Gb  host_ch9.o [1]
+_usb_host_send_call_interface
+                        0x00004d57   0x16  Code  Gb  host_main.o [1]
+_usb_host_send_data     0x00004605   0x30  Code  Gb  host_snd.o [1]
+_usb_host_send_setup    0x000050c1   0x4a  Code  Gb  host_main.o [1]
+_usb_host_send_setup_call_interface
+                        0x00004d6d   0x16  Code  Gb  host_main.o [1]
+_usb_host_set_up_TR     0x00005077   0x48  Code  Gb  host_main.o [1]
+_usb_host_update_device_address_call_interface
+                        0x00004df1   0x16  Code  Gb  host_main.o [1]
+_usb_host_update_max_packet_size_call_interface
+                        0x00004ddb   0x16  Code  Gb  host_main.o [1]
+_usb_hostdev_cntrl_request
+                        0x00004a59   0x72  Code  Gb  host_ch9.o [1]
+_usb_hostdev_get_descriptor
+                        0x00003d09  0x12c  Code  Gb  host_common.o [1]
+_usb_hostdev_select_interface
+                        0x00004389  0x1b0  Code  Gb  host_common.o [1]
+_usb_khci_add_int_tr    0x000052c7   0x32  Code  Lc  khci_kinetis.o [1]
+_usb_khci_atom_tr       0x000052f9  0x3c4  Code  Lc  khci_kinetis.o [1]
+_usb_khci_bus_control   0x0000585b    0x4  Code  Gb  khci_kinetis.o [1]
+_usb_khci_cancel        0x0000582f   0x10  Code  Gb  khci_kinetis.o [1]
+_usb_khci_get_frame_number
+                        0x0000585f   0x16  Code  Gb  khci_kinetis.o [1]
+_usb_khci_get_hot_int_tr
+                        0x00005e03   0x44  Code  Lc  khci_kinetis.o [1]
+_usb_khci_host_close_pipe
+                        0x00005ddf   0x24  Code  Gb  khci_kinetis.o [1]
+_usb_khci_host_open_pipe
+                        0x00005da7   0x38  Code  Gb  khci_kinetis.o [1]
+_usb_khci_init          0x00005781   0x8e  Code  Gb  khci_kinetis.o [1]
+_usb_khci_init_int_tr   0x000052b1   0x16  Code  Lc  khci_kinetis.o [1]
+_usb_khci_process_tr_complete
+                        0x000056bd   0x8c  Code  Lc  khci_kinetis.o [1]
+_usb_khci_recv          0x0000583f   0x1c  Code  Gb  khci_kinetis.o [1]
+_usb_khci_rm_int_tr     0x00005749   0x38  Code  Lc  khci_kinetis.o [1]
+_usb_khci_send          0x00005813   0x1c  Code  Gb  khci_kinetis.o [1]
+_usb_khci_send_setup    0x00005d45   0x16  Code  Gb  khci_kinetis.o [1]
+_usb_khci_shutdown      0x0000580f    0x4  Code  Gb  khci_kinetis.o [1]
+_usb_khci_task          0x00005875  0x4d0  Code  Gb  khci_kinetis.o [1]
+_usb_msgq_init          0x00006041   0x2a  Code  Gb  usbmsgq.o [1]
+_usb_msgq_receive       0x0000610d   0x74  Code  Gb  usbmsgq.o [1]
+_usb_msgq_send          0x0000606b   0xa2  Code  Gb  usbmsgq.o [1]
+abort                   0x00003641    0x6  Code  Gb  abort.o [3]
+bCallBack               0x2000080a    0x1  Data  Lc  diskio.o [1]
+bStatus                 0x200007bc    0x4  Data  Lc  diskio.o [1]
+bdt                     0x20000000  0x200  Data  Gb  khci_kinetis.o [1]
+callback_bulk_pipe      0x00001f2d    0xc  Code  Gb  diskio.o [1]
+check_fs                0x00001363   0x78  Code  Lc  ff.o [1]
+chk_chr                 0x00000455   0x14  Code  Lc  ff.o [1]
+chk_lock                0x00000469   0x8e  Code  Lc  ff.o [1]
+chk_mounted             0x000013e1  0x37c  Code  Lc  ff.o [1]
+class_interface_map     0x20000200   0x24  Data  Gb  usb_classes.o [1]
+clear_lock              0x000005ff   0x2e  Code  Lc  ff.o [1]
+clust2sect              0x000006a1   0x18  Code  Lc  ff.o [1]
+cmp_lfn                 0x00000bc7   0x96  Code  Lc  ff.o [1]
+create_chain            0x00000935   0xb4  Code  Lc  ff.o [1]
+create_name             0x00001025  0x296  Code  Lc  ff.o [1]
+delay                   0x00005fb3   0x1c  Code  Gb  PIT1_kinetis.o [1]
+delay_count             0x200007f0    0x4  Data  Gb  PIT1_kinetis.o [1]
+dir_find                0x00000d7b   0xe8  Code  Lc  ff.o [1]
+dir_next                0x00000a97  0x130  Code  Lc  ff.o [1]
+dir_register            0x00000e63  0x1c2  Code  Lc  ff.o [1]
+dir_sdi                 0x000009e9   0xae  Code  Lc  ff.o [1]
+disk_initialize         0x00001c11   0x9c  Code  Gb  diskio.o [1]
+disk_ioctl              0x00001d85  0x19a  Code  Gb  diskio.o [1]
+disk_read               0x00001cad   0x6c  Code  Gb  diskio.o [1]
+disk_status             0x00001f1f    0xe  Code  Gb  diskio.o [1]
+disk_write              0x00001d19   0x6c  Code  Gb  diskio.o [1]
+element_array           0x20000508   0xc8  Data  Gb  usbmsgq.o [1]
+endpoint_data           0x2000070c   0x20  Data  Lc  khci_kinetis.o [1]
+enq_lock                0x000004f7   0x26  Code  Lc  ff.o [1]
+erase_flash             0x00007287   0x4c  Code  Gb  main.o [1]
+exit                    0x00008aab    0x4  Code  Gb  exit.o [3]
+f_mount                 0x00001797   0x3e  Code  Gb  ff.o [1]
+f_open                  0x000017dd  0x240  Code  Gb  ff.o [1]
+f_read                  0x00001a1d  0x1d2  Code  Gb  ff.o [1]
+ff_convert              0x00001f5d   0x4e  Code  Gb  ccsbcs.o [1]
+ff_memalloc             0x00001787    0x8  Code  Gb  ff.o [1]
+ff_memfree              0x0000178f    0x8  Code  Gb  ff.o [1]
+ff_wtoupper             0x00001fab   0x32  Code  Gb  ccsbcs.o [1]
+filetype                0x2000080e    0x1  Data  Gb  Loader.o [1]
+fit_lfn                 0x00000c5d   0x74  Code  Lc  ff.o [1]
+follow_path             0x000012bb   0xa8  Code  Lc  ff.o [1]
+g_poll                  0x2000075c   0x18  Data  Gb  poll.o [1]
+gen_numname             0x00000cd5   0x88  Code  Lc  ff.o [1]
+get_fat                 0x000006b9   0xf2  Code  Lc  ff.o [1]
+get_fattime             0x00001f39    0x4  Code  Gb  diskio.o [1]
+get_uint32              0x000069f3    0x4  Code  Lc  Loader.o [1]
+hub_anchor              0x200007f4    0x4  Data  Lc  usb_host_hub.o [1]
+hubs                    0x200007f8    0x4  Data  Lc  usb_host_hub_sm.o [1]
+inc_lock                0x0000051d   0xe2  Code  Lc  ff.o [1]
+index                   0x20000800    0x4  Data  Gb  usbmsgq.o [1]
+init_mparams            0x00002003   0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x00002035   0x34  Code  Lc  dlmalloc.o [3]
+khci_event              0x200007b4    0x8  Data  Lc  khci_kinetis.o [1]
+last_to_pipe            0x200007c8    0x4  Data  Lc  khci_kinetis.o [1]
+line                    0x20000404  0x104  Data  Gb  Loader.o [1]
+load_image              0x00007325  0x102  Code  Gb  main.o [1]
+main                    0x00007055   0xb8  Code  Gb  main.o [1]
+mass_anchor             0x200007fc    0x4  Data  Lc  usb_host_msd_bo.o [1]
+mass_device             0x200006ec   0x20  Data  Gb  diskio.o [1]
+mem_cmp                 0x00000435   0x20  Code  Lc  ff.o [1]
+mem_cpy                 0x00000411   0x14  Code  Lc  ff.o [1]
+mem_set                 0x00000425   0x10  Code  Lc  ff.o [1]
+move_window             0x0000062d   0x74  Code  Lc  ff.o [1]
+mparams                 0x20000774   0x18  Data  Lc  dlmalloc.o [3]
+out_char                0x00007625    0xa  Code  Gb  sci_kinetis.o [1]
+pCmd                    0x200006a4   0x24  Data  Lc  diskio.o [1]
+pipe_init_params_prototype
+                        0x000088e8   0x24  Data  Lc  host_dev_list.o [1]
+pll_init                0x000051b5   0x6a  Code  Lc  P2.o [1]
+prepend_alloc           0x00002069  0x36c  Code  Lc  dlmalloc.o [3]
+printf_kinetis          0x00006ea7   0x1e  Code  Gb  printf.o [1]
+printk                  0x00006ad1  0x3d6  Code  Gb  printf.o [1]
+printk_mknumstr         0x00006a25   0x70  Code  Lc  printf.o [1]
+printk_pad_space        0x00006ab3   0x1e  Code  Lc  printf.o [1]
+printk_pad_zero         0x00006a95   0x1e  Code  Lc  printf.o [1]
+printk_putc             0x000069f9   0x2c  Code  Lc  printf.o [1]
+put_fat                 0x000007ab  0x120  Code  Lc  ff.o [1]
+put_rc                  0x000072d3   0x34  Code  Lc  main.o [1]
+remove_chain            0x000008cb   0x6a  Code  Lc  ff.o [1]
+req_prototype           0x00008b70    0x8  Data  Lc  host_ch9.o [1]
+sci1_init               0x00007595   0x6c  Code  Gb  sci_kinetis.o [1]
+segment_holding         0x00001fe9   0x1a  Code  Lc  dlmalloc.o [3]
+strlen                  0x0000755d         Code  Gb  strlen.o [4]
+sum_sfn                 0x00000d5d   0x1e  Code  Lc  ff.o [1]
+sys_alloc               0x000023d5  0x386  Code  Lc  dlmalloc.o [3]
+time_delay              0x00005f93   0x20  Code  Gb  PIT1_kinetis.o [1]
+tmalloc_large           0x00002769  0x39e  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x00002b07  0x21a  Code  Lc  dlmalloc.o [3]
+tr_prototype            0x20000670   0x34  Data  Lc  host_common.o [1]
+tr_que                  0x20000744   0x18  Data  Gb  khci_kinetis.o [1]
+usb_class_hub_clear_port_feature
+                        0x00007e29   0x20  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_cntrl_callback
+                        0x00007d1b   0x1e  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_cntrl_common
+                        0x00007d39   0xa4  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_get_descriptor
+                        0x00007de5   0x24  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_get_port_status
+                        0x00007e49   0x1c  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_init      0x00007cc9   0x52  Code  Gb  usb_host_hub.o [1]
+usb_class_hub_set_port_feature
+                        0x00007e09   0x20  Code  Gb  usb_host_hub.o [1]
+usb_class_mass_call_back_cbw
+                        0x00003785   0x6e  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_call_back_csw
+                        0x00003897  0x110  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_call_back_dphase
+                        0x000037f3   0xa4  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_clear_bulk_pipe_on_usb
+                        0x00003aa5   0x64  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_deleteq  0x000045bd   0x2c  Code  Gb  usb_host_msd_queue.o [1]
+usb_class_mass_get_pending_request
+                        0x000045e9   0x1c  Code  Gb  usb_host_msd_queue.o [1]
+usb_class_mass_init     0x00003675   0x82  Code  Gb  usb_host_msd_bo.o [1]
+usb_class_mass_pass_on_usb
+                        0x000039a9   0xfc  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_q_init   0x00004575   0x12  Code  Gb  usb_host_msd_queue.o [1]
+usb_class_mass_q_insert
+                        0x00004589   0x32  Code  Gb  usb_host_msd_queue.o [1]
+usb_class_mass_reset_callback
+                        0x00003b79   0xc8  Code  Lc  usb_host_msd_bo.o [1]
+usb_class_mass_reset_recovery_on_usb
+                        0x00003b09   0x6e  Code  Gb  usb_host_msd_bo.o [1]
+usb_class_mass_storage_device_command
+                        0x000036f9   0x8a  Code  Gb  usb_host_msd_bo.o [1]
+usb_dev_list_attach_device
+                        0x00004b7d   0xe4  Code  Gb  host_dev_list.o [1]
+usb_dev_list_close_pipe
+                        0x00004c65   0x42  Code  Lc  host_dev_list.o [1]
+usb_dev_list_close_pipe_bundle
+                        0x00004ca7   0x2a  Code  Gb  host_dev_list.o [1]
+usb_dev_list_detach_device
+                        0x00004cd1   0x70  Code  Gb  host_dev_list.o [1]
+usb_dev_list_free_memory
+                        0x00004acd   0x46  Code  Gb  host_dev_list.o [1]
+usb_dev_list_get_memory
+                        0x00004b15   0x66  Code  Gb  host_dev_list.o [1]
+usb_host_ch9_dev_req    0x00004871   0x82  Code  Lc  host_ch9.o [1]
+usb_host_class_intf_init
+                        0x00003eb5   0xaa  Code  Gb  host_common.o [1]
+usb_host_class_intf_validate
+                        0x00003f5f   0x22  Code  Gb  host_common.o [1]
+usb_host_cntrl_transaction_done
+                        0x00004665  0x1e6  Code  Lc  host_ch9.o [1]
+usb_host_driver_info_match
+                        0x00003f81  0x106  Code  Lc  host_common.o [1]
+usb_host_driver_info_nonzero
+                        0x000040f5   0x4a  Code  Lc  host_common.o [1]
+usb_host_driver_info_scan
+                        0x00004087   0x6e  Code  Lc  host_common.o [1]
+usb_host_hub_device_event
+                        0x00007631  0x130  Code  Gb  usb_host_hub_sm.o [1]
+usb_host_hub_device_sm  0x00007761  0x468  Code  Lc  usb_host_hub_sm.o [1]
+usb_host_hub_int_callback
+                        0x00007bc9   0x92  Code  Lc  usb_host_hub_sm.o [1]
+usb_host_map_class_intf
+                        0x0000413f   0x38  Code  Lc  host_common.o [1]
+usb_host_mass_device_event
+                        0x0000743b   0x68  Code  Gb  main.o [1]
+usb_host_state_struct_ptr
+                        0x200007c4    0x4  Data  Gb  host_main.o [1]
+usb_hostdev_attach_detach
+                        0x00003c6d   0x44  Code  Gb  host_common.o [1]
+usb_hostdev_delete_interface
+                        0x00004191   0xca  Code  Gb  host_common.o [1]
+usb_hostdev_get_class   0x00003ccd   0x3c  Code  Lc  host_common.o [1]
+usb_hostdev_get_pipe_handle
+                        0x00003e35   0x7e  Code  Gb  host_common.o [1]
+usb_hostdev_mask_class_etc
+                        0x0000425b   0x2a  Code  Lc  host_common.o [1]
+usb_hostdev_open_pipe   0x00004285  0x100  Code  Lc  host_common.o [1]
+usb_hostdev_tr_init     0x00004539   0x2e  Code  Gb  host_common.o [1]
+usb_hostdev_validate    0x00003cb1   0x1c  Code  Gb  host_common.o [1]
+usb_hub_wait_for_interrupt
+                        0x00007c5d   0x5e  Code  Lc  usb_host_hub_sm.o [1]
+usb_mass_ufi_generic    0x0000355f   0x7e  Code  Gb  usb_host_msd_ufi.o [1]
+validate                0x0000175d   0x2a  Code  Lc  ff.o [1]
+
+
+[1] = C:\Users\b51443\Desktop\USB_MSD_Host_bootloader_rev2\USB_MSD_Host_Bootloader\bootload_code\Source\Host\examples\bootloader\iar_ew\kinetis_k60\Flash Debug K60\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  32 158 bytes of readonly  code memory
+   2 985 bytes of readonly  data memory
+  34 848 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
